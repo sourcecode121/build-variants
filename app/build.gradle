@@ -23,9 +23,15 @@ android {
     productFlavors {
         free {
             applicationId "com.example.buildvariants"
+            manifestPlaceholders = [
+                    appName: "Build Variants"
+            ]
         }
         pro {
             applicationId "com.example.buildvariants.pro"
+            manifestPlaceholders = [
+                    appName: "Build Variants Pro"
+            ]
         }
     }
 }
