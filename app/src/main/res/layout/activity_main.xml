@@ -10,7 +10,8 @@
     tools:context="com.example.buildvariants.MainActivity">
 
     <TextView
+        android:id="@+id/variant"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Build Variants" />
 </RelativeLayout>

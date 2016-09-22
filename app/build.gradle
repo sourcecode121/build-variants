@@ -20,6 +20,14 @@ android {
             applicationIdSuffix ".debug"
         }
     }
+    productFlavors {
+        free {
+            applicationId "com.example.buildvariants"
+        }
+        pro {
+            applicationId "com.example.buildvariants.pro"
+        }
+    }
 }
 
 dependencies {

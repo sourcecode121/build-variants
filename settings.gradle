@@ -1,1 +1,2 @@
-include ':app'
+include ':Variants'
+project(':Variants').projectDir = new File('app')

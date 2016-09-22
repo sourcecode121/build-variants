@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Build Variants</string>
+    <string name="freeText">Free version</string>
+    <string name="proText">Pro version</string>
 </resources>
